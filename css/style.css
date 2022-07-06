@@ -6,7 +6,7 @@
   top: 0px;
   left: 0x;
   background: rgb(185, 181, 181);
-  font-size: calc(1em * 0.7);;
+  font-size: calc(1em * 0.7);
   /*outline: 1px solid red;*/
 }
 .ul {
@@ -52,7 +52,7 @@
 }
 .article {
   text-align: left;
-  font-size: calc(1em * 0.5);;
+  font-size: calc(1em * 0.5);
   margin-top: 0.5em; /* Отступ сверху */
   margin-bottom: 2em; /* Отступ снизу */
   text-indent: 10px;
@@ -81,18 +81,18 @@
 .pl {
   display: inline-block;
   text-align: left;
-  font-size: calc(1em * 0.5);;
+  font-size: calc(1em * 0.5);
 }
 .pc {
   display: inline-block;
   text-align: left;
-  font-size: calc(1em * 0.5);;
+  font-size: calc(1em * 0.5);
   margin-left: 7em;
   margin-right: 15em;
 }
 .pr {
   display: inline-block;
   text-align: left;
-  font-size: calc(1em * 0.5);;
+  font-size: calc(1em * 0.5);
   margin-left: 6em;
 }

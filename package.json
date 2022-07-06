@@ -1,9 +1,9 @@
 {
-  "name": "weather-forecast",
+  "name": "lesson-17-homework",
   "version": "1.0.0",
-  "description": "weather-forecast",
+  "description": "lesson-17-homework",
   "scripts": {
-    "test": "jest",
+    "test": "",
     "lint": "prettier --check . && eslint .",
     "lint:fix": "prettier --write . && eslint . --fix",
     "prepare": "husky install",
@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Maxter1971/weather-forecast.git"
+    "url": "git+https://github.com/Maxter1971/lesson-17-homework.git"
   },
   "author": "Max Terzhevik",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Maxter1971/weather-forecast/issues"
+    "url": "https://github.com/Maxter1971/lesson-17-homework/issues"
   },
-  "homepage": "https://github.com/Maxter1971/weather-forecast#readme",
+  "homepage": "https://github.com/Maxter1971/lesson-17-homework#readme",
   "devDependencies": {
     "@babel/core": "^7.18.2",
     "@babel/preset-env": "^7.18.2",

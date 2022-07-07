@@ -1,7 +1,7 @@
 .page-header {
   display: flex;
   width: 100%;
-  height: 20%;
+  height: 180px;
   position: relative;
   top: 0px;
   left: 0x;
@@ -74,7 +74,7 @@
   top: 10px;
   left: 0%;
   width: 100%;
-  height: 250px;
+  height: 300px;
   background: rgb(185, 181, 181);
   /*outline: 1px solid blue; */
 }

@@ -6,7 +6,7 @@
   top: 0px;
   left: 0x;
   background: rgb(185, 181, 181);
-  font-size: calc(1em * 0.7);
+  font-size: calc(1em * 1.2);
   /*outline: 1px solid red;*/
 }
 .ul {
@@ -28,7 +28,7 @@
   top: 5px;
   left: 0px;
   width: 100%;
-  height: 700px;
+  height: 1300px;
 }
 .left {
   display: flex;
@@ -52,7 +52,7 @@
 }
 .article {
   text-align: left;
-  font-size: calc(1em * 0.5);
+  font-size: calc(1em);
   margin-top: 0.5em; /* Отступ сверху */
   margin-bottom: 2em; /* Отступ снизу */
   text-indent: 10px;
@@ -74,25 +74,25 @@
   top: 10px;
   left: 0%;
   width: 100%;
-  height: 110px;
+  height: 300px;
   background: rgb(185, 181, 181);
   /*outline: 1px solid blue; */
 }
 .pl {
   display: inline-block;
   text-align: left;
-  font-size: calc(1em * 0.5);
+  font-size: calc(1em);
 }
 .pc {
   display: inline-block;
   text-align: left;
-  font-size: calc(1em * 0.5);
-  margin-left: 7em;
-  margin-right: 15em;
+  font-size: calc(1em);
+  margin-left: 3em;
+  margin-right: 14em;
 }
 .pr {
   display: inline-block;
   text-align: left;
-  font-size: calc(1em * 0.5);
-  margin-left: 6em;
+  font-size: calc(1em);
+  margin-left: 3em;
 }

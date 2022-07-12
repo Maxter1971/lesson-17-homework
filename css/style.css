@@ -1,7 +1,7 @@
 .page-header {
   display: flex;
   width: 100%;
-  height: 180px;
+  height: 125px;
   position: relative;
   font-size: calc(1em * 1.2);
 }
@@ -13,7 +13,8 @@
   padding: 0;
 }
 .img {
-  position: static;
+  display: grid;
+  position: relative;
   top: 5px;
   left: 5x;
 }

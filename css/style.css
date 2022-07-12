@@ -3,11 +3,7 @@
   width: 100%;
   height: 180px;
   position: relative;
-  top: 0px;
-  left: 0x;
-  background: rgb(185, 181, 181);
   font-size: calc(1em * 1.2);
-  /*outline: 1px solid red;*/
 }
 .ul {
   display: flex;
@@ -23,76 +19,24 @@
 }
 
 .main {
-  display: flex;
+  display: grid;
   position: relative;
-  top: 5px;
-  left: 0px;
   width: 100%;
-  height: 1300px;
-}
-.left {
-  display: flex;
-  position: relative;
-  top: 1%;
-  left: 0%;
-  width: 19%;
-  height: 98%;
-  background: rgb(185, 181, 181);
-  /*outline: 1px solid blue; */
-}
-.center {
-  display: flex;
-  position: relative;
-  top: 1%;
-  left: 1%;
-  width: 60%;
-  height: 98%;
-  background: rgb(185, 181, 181);
-  /*outline: 1px solid blue; */
-}
-.article {
+  gap: 15px;
+  grid-template-columns: 250px 1fr 250px;
+  margin-top: 10px;
+  font-size: 1em;
   text-align: left;
-  font-size: calc(1em);
-  margin-top: 0.5em; /* Отступ сверху */
-  margin-bottom: 2em; /* Отступ снизу */
-  text-indent: 10px;
-}
-.right {
-  display: flex;
-  position: relative;
-  top: 1%;
-  left: 2%;
-  width: 19%;
-  height: 98%;
-  background: rgb(185, 181, 181);
-  /*outline: 1px solid blue; */
 }
 
 .footer {
-  display: flex;
-  position: relative;
-  top: 10px;
-  left: 0%;
-  width: 100%;
-  height: 300px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  font-size: 1em;
+  margin-top: 15px;
+}
+.color {
   background: rgb(185, 181, 181);
-  /*outline: 1px solid blue; */
-}
-.pl {
-  display: inline-block;
-  text-align: left;
-  font-size: calc(1em);
-}
-.pc {
-  display: inline-block;
-  text-align: left;
-  font-size: calc(1em);
-  margin-left: 3em;
-  margin-right: 14em;
-}
-.pr {
-  display: inline-block;
-  text-align: left;
-  font-size: calc(1em);
-  margin-left: 3em;
 }

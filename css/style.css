@@ -15,8 +15,6 @@
 .img {
   display: grid;
   position: relative;
-  top: 5px;
-  left: 5x;
 }
 
 .main {
